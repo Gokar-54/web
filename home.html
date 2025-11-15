@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>الصفحة الرئيسية</title>
+<style>
+    body {
+        background:#111; color:white; 
+        font-family:Arial; text-align:center;
+        padding-top:100px;
+    }
+    button {
+        padding:12px 25px; background:#ff0055;
+        color:white; border:none; border-radius:8px;
+        cursor:pointer; font-size:18px;
+    }
+</style>
+</head>
+<body>
+
+<h1>مرحباً بك في موقعك 🎉</h1>
+<p>تم تسجيل الدخول بنجاح.</p>
+
+<button onclick="logout()">تسجيل خروج</button>
+
+<script>
+function logout() {
+    window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>
